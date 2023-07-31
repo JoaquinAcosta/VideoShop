@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoShop.WebApi", "VideoShop\VideoShop.WebApi.csproj", "{7A8D0DB4-319B-461C-A8E4-F1F9E6132541}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.WebApi", "1.WebApi", "{D1111B22-BD89-4338-8B1B-1DC3246248A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Services", "2.Services", "{49912A8C-72A4-4BE1-8299-C08AC33DF377}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.DataAccess", "3.DataAccess", "{B0CF5750-9632-4C29-8C65-625CAB266C08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Models", "4.Models", "{02F15644-2AE6-4488-B8F1-1F74927259DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoShop.Services", "VideoShop.Services\VideoShop.Services.csproj", "{C908D252-D660-4177-9BE2-167F82EB92FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoShop.DataAccess", "VideoShop.DataAccess\VideoShop.DataAccess.csproj", "{D99182C5-5BDA-459A-B1D7-04EEEC2E20B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoShop.Models", "VideoShop.Models\VideoShop.Models.csproj", "{8607F1E1-2536-4D73-ACB9-B1051631D438}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A8D0DB4-319B-461C-A8E4-F1F9E6132541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8D0DB4-319B-461C-A8E4-F1F9E6132541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8D0DB4-319B-461C-A8E4-F1F9E6132541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8D0DB4-319B-461C-A8E4-F1F9E6132541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C908D252-D660-4177-9BE2-167F82EB92FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C908D252-D660-4177-9BE2-167F82EB92FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C908D252-D660-4177-9BE2-167F82EB92FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C908D252-D660-4177-9BE2-167F82EB92FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D99182C5-5BDA-459A-B1D7-04EEEC2E20B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D99182C5-5BDA-459A-B1D7-04EEEC2E20B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D99182C5-5BDA-459A-B1D7-04EEEC2E20B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D99182C5-5BDA-459A-B1D7-04EEEC2E20B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8607F1E1-2536-4D73-ACB9-B1051631D438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8607F1E1-2536-4D73-ACB9-B1051631D438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8607F1E1-2536-4D73-ACB9-B1051631D438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8607F1E1-2536-4D73-ACB9-B1051631D438}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A8D0DB4-319B-461C-A8E4-F1F9E6132541} = {D1111B22-BD89-4338-8B1B-1DC3246248A7}
+		{C908D252-D660-4177-9BE2-167F82EB92FF} = {49912A8C-72A4-4BE1-8299-C08AC33DF377}
+		{D99182C5-5BDA-459A-B1D7-04EEEC2E20B5} = {B0CF5750-9632-4C29-8C65-625CAB266C08}
+		{8607F1E1-2536-4D73-ACB9-B1051631D438} = {02F15644-2AE6-4488-B8F1-1F74927259DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {686674B8-3443-4564-8C8C-A5F66A925075}
+	EndGlobalSection
+EndGlobal
